@@ -30,9 +30,12 @@ namespace AppSimplesWPF
         {
             double altura = double.Parse(txtAltura.Text);
             double peso = double.Parse(txtPeso.Text);
-            double imc = peso / (altura * altura);
+            double imc = peso / Math.Pow(altura, 2);
 
             tbkResultado.Text = ""+ imc;
+            txtAltura.Clear();
+            txtPeso.Clear();
+
 
             if (imc < 18.5)
             {

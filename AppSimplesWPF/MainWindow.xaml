@@ -35,7 +35,7 @@
             <TextBox x:Name="txtPeso" FontSize="20" Height="35" Width="90" Background="White" Margin="0"></TextBox>
         </StackPanel>
 
-        <StackPanel Grid.ColumnSpan="2" Width="NaN" Grid.RowSpan="2">
+        <StackPanel Grid.ColumnSpan="2" Width="NaN" Grid.RowSpan="3" Margin="0,7,0,137">
             <Button x:Name="cacularbt" Content="Calcular" Margin="300,220,300,0" Grid.Row="1" 
                 FontSize="30" Click="btCalcular" Height="49" />
         </StackPanel>
@@ -45,9 +45,9 @@
             <Label Content="Classificação:" FontFamily="Caladea" FontSize="36" Width="222" Height="50" Margin ="50,0,0,0"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin ="0,20,216,31" Width="NaN" Height="NaN" Grid.Column="1"  >
-            <TextBlock x:Name="tbkResultado" FontSize="18" Background="#FFDBFFF6" Height="33" Width="190" Margin="2,12,2,10" ></TextBlock>
-            <TextBlock x:Name="tbkClassificacao" FontSize="18" Height="33" Width="180" Background="#FFDBFFF6" />
+        <StackPanel Grid.Row="2" Margin ="0,20,174,31" Width="NaN" Height="NaN" Grid.Column="1"  >
+            <TextBlock x:Name="tbkResultado" FontSize="18" Background="#FFDBFFF6" Height="33" Width="209" Margin="2,12,2,10" ></TextBlock>
+            <TextBlock x:Name="tbkClassificacao" FontSize="18" Height="33" Width="211" Background="#FFDBFFF6" />
         </StackPanel>
 
 

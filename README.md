@@ -1,2 +1,2 @@
 # AppSimplesWPF
-Thauany Celestino e Emily Damaceno
+Thauany Celestino, Emily Damaceno e Hilary Souza
